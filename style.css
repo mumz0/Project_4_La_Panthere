@@ -649,10 +649,11 @@ h6,
 p,
 label,
 .btn,
+q,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color:black!important;
 }
 
 .container {
