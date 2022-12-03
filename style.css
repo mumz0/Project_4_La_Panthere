@@ -1036,3 +1036,12 @@ h4 {
         text-align: center;
     }
 }
+
+input,button,a:focus{
+    border: 2px solid blue;;
+}
+
+.text-center-social {
+    align-items: center;
+    display: flex;
+}
