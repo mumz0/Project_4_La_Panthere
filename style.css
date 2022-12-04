@@ -11,9 +11,9 @@ button {
   transition: all 0.3s ease-in-out;
   outline: 0 !important;
 }
-a:focus,
-button,
-input {
+
+button:focus,
+input:focus, a:focus{
   border: 2px solid #00f;
 }
 .text-center-social {
@@ -76,7 +76,7 @@ a:hover {
   right: 0;
 }
 .texture-paper::before {
-  background: url(https://mumz0.github.io/Project_4_La_Panthere/img/texture-paper.webp);
+  background: url(./img/texture-paper.webp);
   background-size: 280px 280px;
 }
 .b-parallax {
@@ -309,7 +309,6 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 0;
   z-index: 500;
   transition: all 0.3s ease-in-out;
 }
@@ -483,16 +482,16 @@ h4 {
   border-color: #364577 !important;
 }
 .bg-dots-bg {
-  background-image: url(https://mumz0.github.io/Project_4_La_Panthere/img/dots-bg.webp);
+  background-image: url(./img/dots-bg.webp);
 }
 .bg-lines-h2-bg {
-  background-image: url(https://mumz0.github.io/Project_4_La_Panthere/img/lines-h2-bg.webp);
+  background-image: url(./img/lines-h2-bg.webp);
 }
 .bg-banniere {
-  background-image: url(https://mumz0.github.io/Project_4_La_Panthere/img/agence-la-panthere.webp);
+  background-image: url(./img/agence-la-panthere.webp);
 }
 .bg-presentation {
-  background-image: url(https://mumz0.github.io/Project_4_La_Panthere/img/image-de-presentation.webp);
+  background-image: url(./img/image-de-presentation.webp);
 }
 @media (max-width: 1024px) {
   .bloc {
